@@ -26,7 +26,7 @@ class CalculatorPage:
         self.driver.get(self.URL)
         return self
 
-    @allure.step("Установка задержки {delay} секунд")
+    @allure.step("Установка задержки {seconds} секунд")
     def set_delay(self, seconds: int):
         """
         Устанавливает задержку для выполнения операций на калькуляторе.
